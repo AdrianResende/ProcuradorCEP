@@ -2,9 +2,14 @@
 
 Um aplicativo moderno e elegante para busca de endereços pelo CEP, inspirado no design glassmorphism do iPhone.
 
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://procurador-cep-tain-l4ww4ka0i-adrianresendes-projects.vercel.app)
 ![Procurador CEP](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5.4.8-646CFF?style=for-the-badge&logo=vite)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11.11.1-FF6D9A?style=for-the-badge&logo=framer)
+
+## 🌐 Demo Online
+
+Acesse a aplicação: **[https://procurador-cep-tain-l4ww4ka0i-adrianresendes-projects.vercel.app](https://procurador-cep-tain-l4ww4ka0i-adrianresendes-projects.vercel.app)**
 
 ## ✨ Características
 
@@ -72,6 +77,29 @@ http://localhost:3000
 - `npm run build` - Cria a build de produção
 - `npm run preview` - Visualiza a build de produção
 - `npm run lint` - Executa o linter para verificar código
+
+## 🚀 Deploy
+
+### Vercel (Recomendado)
+
+1. Instale a CLI da Vercel:
+```bash
+npm install -g vercel
+```
+
+2. Faça o deploy:
+```bash
+vercel --prod
+```
+
+### Build Manual
+
+1. Crie a build de produção:
+```bash
+npm run build
+```
+
+2. A pasta `dist/` contém os arquivos para deploy em qualquer servidor estático.
 
 ## 📚 Como Usar
 
